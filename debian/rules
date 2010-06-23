@@ -4,3 +4,8 @@
 
 override_dh_auto_build:
 	ant -f ndg-commons-core/packaging-build.xml
+	mkdir ndg-server-core/bin
+	ant -f ndg-server-core/packaging-build.xml
+	mkdir ndg-server-servlets/build/classes
+	ant -f ndg-server-servlets/packaging-build.xml
+	ant -f ndg-web-server/deploy/build.xml
