@@ -1,0 +1,8 @@
+ndg-commons-core/build/ndg-commons.jar          /usr/share/java
+ndg-server-core/build/msmjms.jar                /usr/share/java
+ndg-server-core/build/ndg-ejb-client.jar        /usr/share/java
+ndg-server-core/build/ndg-ejb.jar               /usr/share/java
+ndg-server-core/build/ndg-core-web.war          /usr/share/java
+ndg-server-core/build/ndg-core.ear              /usr/share/java
+ndg-server-servlets/build/ndg-servlets.war      /usr/share/java
+ndg-web-server/deploy/ndgFlex.war               /usr/share/java
