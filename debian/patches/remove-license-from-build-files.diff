@@ -1,3 +1,8 @@
+# Description: Remove license from ant build files. Ant cannot seem to parse
+#  and ignore the license headers, so this patch is necessary to allow ant to
+#  build the requisite jar files
+# Author: Jon Bernard <jbernard@debian.org>
+
 --- a/ndg-commons-core/packaging-build.xml
 +++ b/ndg-commons-core/packaging-build.xml
 @@ -1,441 +1,3 @@
