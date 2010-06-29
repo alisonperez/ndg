@@ -6,7 +6,11 @@ Build-Depends: debhelper (>= 7.0.50~), ant
 Standards-Version: 3.9
 
 Package: ndg
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Data collection using mobile phones instead of paper forms
+ NDG consists of two modules - a server and a mobile client. Survey creation
+ and administration is done on the server and questionnaires are delivered to
+ the mobile client using a normal mobile telecommunications network. Data
+ received from the mobile client is stored in a database and can be exported to
+ CSV and Excel formats. Furthermore results with GPS-based data are mapped.
