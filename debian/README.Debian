@@ -1,6 +1,9 @@
 ndg for Debian
 --------------
 
-<possible notes regarding this package - if none, delete this file>
+Now that you've installed the ndg package, a final step is required to set
+everything up. You must run the script `ndg-post-install.sh` located in
+/usr/share/doc/ndg. This script will download, install, and configure JBoss and
+create symlinks to your NDG installation jars so they can be used.
 
  -- Jon Bernard <jbernard@debian.org>  Sat, 29 May 2010 10:52:32 -0400
