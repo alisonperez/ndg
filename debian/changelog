@@ -1,5 +1,18 @@
-ndg (0.0.1-1) UNRELEASED; urgency=low
+ndg (0.0.1-1) unstable; urgency=low
 
   * Initial release, no ITP at the moment.
+  * [195357] Add patch to remove license from ant build files
+  * [8d3a25] Override dh_auto_build to attempt to run ant
+  * [ee61b3] Add ant to the list of build dependencies
+  * [249ad6] Remove license from all ant build files
+  * [bb3569] Run ant on all available build files
+  * [7599c1] Install jars in /usr/share/java
+  * [c166f4] Add README.Debian placeholder to describe post-install steps
+  * [4b9f27] Add post-install script to install JBoss and configure symlinks
+  * [3b4f13] Bump standards version to 3.9
+  * [5842f6] Add package description
+  * [bca8f0] Add description to remove-license-from-build-files patch
+  * [a8e4fd] Switch standards version from 3.9 to 3.9.0
+  * [222ae0] Add post installation instructions to README.Debian
 
- -- Jon Bernard <jbernard@debian.org>  Sat, 29 May 2010 10:52:32 -0400
+ -- Jon Bernard <jbernard@debian.org>  Thu, 22 Jul 2010 15:04:24 -0400
