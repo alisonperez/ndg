@@ -1,3 +1,9 @@
+ndg (0.0.1-2) unstable; urgency=low
+
+  * [8fb656] Remove license header from all xml files
+
+ -- Jon Bernard <jbernard@debian.org>  Mon, 26 Jul 2010 19:11:28 -0400
+
 ndg (0.0.1-1) unstable; urgency=low
 
   * Initial release, no ITP at the moment.
