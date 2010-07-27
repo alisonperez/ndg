@@ -7,7 +7,7 @@ Standards-Version: 3.9.0
 
 Package: ndg
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, mysql-server
 Description: Data collection using mobile phones instead of paper forms
  NDG consists of two modules - a server and a mobile client. Survey creation
  and administration is done on the server and questionnaires are delivered to
