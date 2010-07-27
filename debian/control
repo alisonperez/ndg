@@ -3,7 +3,7 @@ Section: java
 Priority: extra
 Maintainer: Jon Bernard <jbernard@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), ant
-Standards-Version: 3.9.0
+Standards-Version: 3.9.1
 
 Package: ndg
 Architecture: all
