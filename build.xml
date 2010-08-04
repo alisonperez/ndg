@@ -6,7 +6,8 @@
 
     <target name="compile">
         <javac srcdir="." classpathref="classpath"
-            includes="ndg-commons-core/**/*.java,ndg-server-core/**/*.java,ndg-server-servlets/**/*.java"/>
+            includes="ndg-commons-core/**/*.java,ndg-server-core/**/*.java,ndg-server-servlets/**/*.java"
+            excludes="ndg-server-servlets/src/main/java/com/jcraft/**/*.java"/>
     </target>
 
 </project>
