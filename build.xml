@@ -5,7 +5,8 @@
     </path>
 
     <target name="compile">
-        <javac srcdir="." classpathref="classpath" includes="ndg-commons-core/**/*.java"/>
+        <javac srcdir="." classpathref="classpath"
+            includes="ndg-commons-core/**/*.java,ndg-server-core/**/*.java,ndg-server-servlets/**/*.java"/>
     </target>
 
 </project>
