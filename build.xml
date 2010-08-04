@@ -1,8 +1,11 @@
 <project default="compile">
 
+    <path id="classpath">
+        <fileset dir="lib" includes="**/*.jar"/>
+    </path>
+
     <target name="compile">
-        <javac srcdir="." excludes=".pc/**/*.java"/>
+        <javac srcdir="." classpathref="classpath" includes="ndg-commons-core/**/*.java"/>
     </target>
 
 </project>
-
